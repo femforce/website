@@ -78,7 +78,7 @@
             @endif
 
             <div class="content">
-                <img src="{{secure_asset("FemmForce_Logo-1.png")}}" height="200px" width="200px">
+                <img src="FemmForce_Logo-1.png" height="200px" width="200px">
                 <div class="title m-b-md">
                    Coming Soon
                 </div>
