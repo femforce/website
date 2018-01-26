@@ -11,14 +11,16 @@
 |
 */
 
-Route::get('/', function () {
-    return view('home');
+use App\Company;
+
+Route::get('/', function() {
+    return view('comingSoon');
 });
 
-Route::get('/about-us', function () {
+Route::get('/about-us', function() {
     return view('aboutUs');
 });
 
-Route::get('/home', function () {
-    return view('home');
-});
+Route::get('/home', 'HomeController@view');
+
+Route::get('/companies', 'CompanyController@getCompanies');
