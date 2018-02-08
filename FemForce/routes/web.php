@@ -13,14 +13,16 @@
 
 use App\Company;
 
-Route::get('/', function() {
-    return view('comingSoon');
-});
+Route::get('/', 'HomeController@view')->middleware('auth');
 
-Route::get('/about-us', function() {
-    return view('aboutUs');
-});
+Route::get('/home', 'HomeController@view')->middleware('auth');
 
-Route::get('/home', 'HomeController@view');
+Route::get('/candidates', 'CandidateController@view')->middleware('auth');
 
-Route::get('/companies', 'CompanyController@getCompanies');
+Route::get('/employers', 'EmployerController@view')->middleware('auth');
+
+Route::get('/about-us', 'AboutUsController@view')->middleware('auth');
+
+Route::get('/companies', 'CompanyController@getCompanies')->middleware('auth');
+
+Auth::routes();

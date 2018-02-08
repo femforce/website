@@ -57,12 +57,13 @@
             </div>
         </noscript>
 
+
         <!-- Header Section Start -->
         <div class="header">
             <!-- Start intro section -->
             <section id="intro" class="section-intro">
                 <div class="logo-menu">
-                    <nav class="navbar navbar-default" role="navigation" data-spy="affix" data-offset-top="50">
+                    <nav class="navbar navbar-default main-navigation" role="navigation" data-spy="affix" data-offset-top="50">
                         <div class="container">
                             <!-- Brand and toggle get grouped for better mobile display -->
                             <div class="navbar-header">
@@ -88,7 +89,7 @@
                                         <a href="employers">Employers</a>
                                     </li>
                                     <li>
-                                        <a href="about">About Us</a>
+                                        <a href="about-us">About Us</a>
                                     </li>
                                 </ul>
                                 <ul class="nav navbar-nav navbar-right float-right">
@@ -109,7 +110,7 @@
                                 <a href="employers">Employers</a>
                             </li>
                             <li>
-                                <a href="about">About Us</a>
+                                <a href="about-us">About Us</a>
                             </li>
                             <li class="btn-m"><a href="post-job.html"><i class="ti-pencil-alt"></i> Post A Job</a></li>
                             <li class="btn-m"><a href="my-account.html"><i class="ti-lock"></i>  Log In</a></li>
@@ -131,20 +132,12 @@
                             <div class="row">
                                 <div class="col-md-3 col-sm-6 col-xs-12">
                                     <div class="widget">
-                                        <h3 class="block-title"><img src="{{asset('FemmForce_Logo-2.png')}}" class="img-responsive" alt="Footer Logo"></h3>
-                                        <div class="textwidget">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lobortis tincidunt est, et euismod purus suscipit quis. Etiam euismod ornare elementum. Sed ex est, consectetur eget facilisis sed.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-3 col-sm-6 col-xs-12">
-                                    <div class="widget">
                                         <h3 class="block-title">Quick Links</h3>
                                         <ul class="menu">
                                             <li><a href="home">Home</a></li>
                                             <li><a href="candidates">Candidates</a></li>
                                             <li><a href="employers">Employers</a></li>
-                                            <li><a href="about">About Us</a></li>
+                                            <li><a href="about-us">About Us</a></li>
                                         </ul>
                                     </div>
                                 </div>

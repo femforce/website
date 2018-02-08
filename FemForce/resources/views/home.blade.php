@@ -39,7 +39,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-1 col-sm-6">
-                                    <button type="button" class="btn btn-search-icon"><i class="ti-search"></i></button>
+                                    <a href="candidates" type="button" class="btn btn-search-icon"><i class="ti-search"></i></a>
                                 </div>
                             </div>
                         </form>
@@ -72,8 +72,8 @@
                                     <a href="job-details.html"><img src="assets/img/jobs/img-1.jpg" alt=""></a>
                                 </div>
                                 <div class="job-list-content">
-                                    <h4><a href="job-details.html">Need a web designer</a><span class="full-time">Full-Time</span></h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quaerat aut veniam molestiae atque dolorum omnis temporibus consequuntur saepe. Nemo atque consectetur saepe corporis odit in dicta reprehenderit, officiis, praesentium?</p>
+                                    <h4><a href="job-details.html">{{$job->title}}</a><span class="full-time">Full-Time</span></h4>
+                                    <p>{{$job->description}}</p>
                                     <div class="job-tag">
                                         <div class="pull-left">
                                             <div class="meta-tag">
@@ -118,13 +118,13 @@
             <h2 class="section-title">Browse Categories</h2>
             <div class="row">
                 <div class="col-md-12">
-                    @foreach($categories as $catgory)
+                    @foreach($categories as $category)
                         <div class="col-md-3 col-sm-3 col-xs-12 f-category">
                             <a href="browse-jobs.html">
                                 <div class="icon">
                                     <i class="ti-home"></i>
                                 </div>
-                                <h3>Finance</h3>
+                                <h3>{{$category->name}}</h3>
                                 <p>4286 jobs</p>
                             </a>
                         </div>
@@ -152,7 +152,7 @@
                                         </a>
                                     </figure>
                                     <div class="item-body">
-                                        <h3 class="job-title"><a href="job-page.html">Graphic Designer</a></h3>
+                                        <h3 class="job-title"><a href="job-page.html">{{$featuredJob->title}}</a></h3>
                                         <div class="adderess"><i class="ti-location-pin"></i> Dallas, United States</div>
                                     </div>
                                 </div>
@@ -230,7 +230,7 @@
                 <div id="clients-scroller">
                     @foreach($companies as $company)
                         <div class="items">
-                            <img src="assets/img/clients/img1.png" alt="">
+                            <img src="{{$company->image->path}}" alt="{{$company->image->path}}">
                         </div>
                     @endforeach
                 </div>

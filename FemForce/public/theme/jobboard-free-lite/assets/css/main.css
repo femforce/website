@@ -775,7 +775,7 @@ nav#menu span.fa.fa-bars:hover {
     intro section style
     ====================================================*/
 .section-intro {
-  background: url("../img/bg/bg-intro.jpg") center center no-repeat;
+  background: url("../img/woman-hand-desk-office (1).jpg") center center no-repeat;
   background-size: cover;
   color: #fff;
   position: relative;
@@ -1359,7 +1359,12 @@ label {
    ========================================================================== */
 #testimonial {
   width: 100%;
-  background: url(../img/testimonial/testimonial-bg.jpg);
+  background: url("../img/rawpixel-com-267082.jpg");
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  filter: grayscale(100%);
   background-size: cover;
   position: relative;
 }
