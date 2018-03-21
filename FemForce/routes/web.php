@@ -25,4 +25,10 @@ Route::get('/about-us', 'AboutUsController@view')->middleware('auth');
 
 Route::get('/companies', 'CompanyController@getCompanies')->middleware('auth');
 
+Route::get('/blog', 'BlogController@view')->middleware('auth');
+
+Route::get('/employee/blog', 'BlogController@edit')->middleware('auth');
+
+Route::post('/employee/create-blog', 'BlogController@create')->middleware('auth');
+
 Auth::routes();

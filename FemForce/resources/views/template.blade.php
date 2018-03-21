@@ -43,6 +43,7 @@
 
         <!-- Color CSS Styles  -->
         <link rel="stylesheet" type="text/css" href="{{asset('theme/jobboard-free-lite/assets/css/colors/red.css')}}" media="screen" />
+        <link rel="stylesheet" type="text/css" href="{{asset('css/react-draft-wysiwyg.css')}}" media="screen" />
 
     </head>
 
@@ -89,6 +90,9 @@
                                         <a href="employers">Employers</a>
                                     </li>
                                     <li>
+                                        <a href="blog">Blog</a>
+                                    </li>
+                                    <li>
                                         <a href="about-us">About Us</a>
                                     </li>
                                 </ul>
@@ -108,6 +112,9 @@
                             </li>
                             <li>
                                 <a href="employers">Employers</a>
+                            </li>
+                            <li>
+                                <a href="blog">Blog</a>
                             </li>
                             <li>
                                 <a href="about-us">About Us</a>
@@ -205,13 +212,8 @@
                 <script type="text/javascript" src="{{asset('theme/jobboard-free-lite/assets/js/contact-form-script.js')}}"></script>
                 <script type="text/javascript" src="{{asset('theme/jobboard-free-lite/assets/js/jquery.themepunch.revolution.min.js')}}"></script>
                 <script type="text/javascript" src="{{asset('theme/jobboard-free-lite/assets/js/jquery.themepunch.tools.min.js')}}"></script>
-            </section>   
+            </section id="intro" class="section-intro">
         </div>
-
-        <script>
-            $(document).ready(function() {
-            })
-        </script>
 
     </body>
 </html>
