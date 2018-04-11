@@ -4,7 +4,7 @@ import draftToHtml from 'draftjs-to-html';
 import { EditorState, convertToRaw, ContentState } from 'draft-js';
 var LoadingIndicator = require('react-loading-indicator');
 
-var Blog = React.createClass({
+var BlogEditor = React.createClass({
 
     getDefaultProps: function() {
         return {
@@ -134,4 +134,4 @@ var Blog = React.createClass({
 });
 
 
-module.exports = Blog;
+module.exports = BlogEditor;

@@ -36,7 +36,12 @@ elixir.config.js.browserify.watchify = {
 };
 
 elixir(function(mix) {
-    mix.browserify('components/BlogApp.jsx', null, null, {
+    mix.browserify('components/Blog/BlogApp.jsx', null, null, {
+        paths: ['./node_modules', '.resources/assets/js'],
+        cache: {},
+        packageCache: {}
+    });
+    mix.browserify('components/Blog/BlogEditorApp.jsx', null, null, {
         paths: ['./node_modules', '.resources/assets/js'],
         cache: {},
         packageCache: {}

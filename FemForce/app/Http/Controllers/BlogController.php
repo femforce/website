@@ -7,14 +7,16 @@ use Illuminate\Support\Facades\Auth;
 
 class BlogController extends Controller
 {
-    function view()
-    {
-        $blogs = Blog::with('user')->get();
-        return view('blog', compact('blogs'));
+    function view(){
+        return view('blog');
     }
 
-    function edit()
-    {
+    function get() {
+        $blogs = Blog::with('user')->get();
+        return $blogs;
+    }
+
+    function edit() {
         return view('blogTest');
     }
 

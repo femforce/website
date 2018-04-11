@@ -35,7 +35,7 @@
 }
 .search-container h2 {
   font-size: 30px;
-  color: #ef7dac;
+  color: #76c4cc;
   font-weight: 400;
   margin-bottom: 30px;
   letter-spacing: -1px;
@@ -65,8 +65,8 @@
   transition: all 0.2s ease-in-out;
 }
 .popular-jobs a:hover {
-  background: #ef7dac;
-  border-color: #ef7dac;
+  background: #76c4cc;
+  border-color: #76c4cc;
   color: #fff;
 }
 .section-intro .main-text {
@@ -252,23 +252,23 @@ label {
 .find-job .nav-tabs > li > a {
   padding: 10px 15px;
   font-size: 14px;
-  color: #ef7dac;
+  color: #76c4cc;
   text-transform: uppercase;
-  border: 1px solid #ef7dac !important;
+  border: 1px solid #76c4cc !important;
   border-radius: 0px;
   margin-right: 10px;
   font-weight: 700;
 }
 .find-job .nav > li > a:focus,
 .find-job .nav > li > a:hover {
-  background-color: #ef7dac;
+  background-color: #76c4cc;
   color: #fff;
 }
 .find-job .nav-tabs > li.active > a,
 .find-job .nav-tabs > li.active > a:focus,
 .find-job .nav-tabs > li.active > a:hover {
   border-radius: 0px;
-  background: #ef7dac;
+  background: #76c4cc;
   color: #fff;
 }
 .find-job table td {
@@ -323,7 +323,7 @@ label {
   line-height: 32px;
 }
 .find-job .showing a span {
-  color: #ef7dac;
+  color: #76c4cc;
 }
 .find-job .pagination > li > a,
 .find-job .pagination > li > span {
@@ -338,7 +338,7 @@ label {
    Category Section Start
    ========================================================================== */
 .category {
-  background: #ef7dac;
+  background: #76c4cc;
 }
 .category .section-title {
   color: #fff;
@@ -386,7 +386,7 @@ label {
 .f-category .icon i {
   font-size: 40px;
   padding: 20px;
-  color: #ef7dac;
+  color: #76c4cc;
   transform: scale(1);
   -moz-transform: scale(1);
   -webkit-transform: scale(1);
@@ -410,7 +410,7 @@ label {
   color: #444;
 }
 .f-category h3 a:hover {
-  color: #ef7dac;
+  color: #76c4cc;
 }
 .f-category p {
   color: #999;
@@ -469,7 +469,7 @@ label {
   text-transform: uppercase;
 }
 .featured-jobs .item-body .job-title a:hover {
-  color: #ef7dac;
+  color: #76c4cc;
 }
 .featured-jobs .item-body .adderess {
   color: #999;
@@ -489,7 +489,7 @@ label {
   color: #999;
 }
 .featured-jobs .item-foot a:hover {
-  color: #ef7dac;
+  color: #76c4cc;
 }
 .featured-jobs .item-foot span {
   color: #999;
@@ -509,7 +509,7 @@ label {
 .featured-jobs .item-foot .view-iocn a {
   width: 48px;
   display: block;
-  background: #ef7dac;
+  background: #76c4cc;
   color: #fff;
   font-size: 20px;
   height: 48px;
@@ -666,7 +666,7 @@ label {
   height: 40px;
   line-height: 30px;
   display: block !important;
-  background: #ef7dac !important;
+  background: #76c4cc !important;
   text-align: center;
   display: inline-block;
   opacity: 1!important;
@@ -713,7 +713,7 @@ label {
   margin-bottom: 25px;
 }
 .counting .icon i {
-  color: #ef7dac;
+  color: #76c4cc;
   font-size: 42px;
 }
 .counting .desc h2 {
@@ -724,7 +724,7 @@ label {
   margin-bottom: 20px;
 }
 .counting .desc h2:after {
-  background: #ef7dac;
+  background: #76c4cc;
   bottom: 0;
   content: "";
   height: 2px;
@@ -739,7 +739,7 @@ label {
   line-height: 39px;
 }
 .counting:hover span {
-  background: #ef7dac;
+  background: #76c4cc;
   -webkit-transform: scale(1.1, 1.1);
   -moz-transform: scale(1.1, 1.1);
   -ms-transform: scale(1.1, 1.1);
@@ -750,7 +750,7 @@ label {
    Infobox Style
    ========================================================================== */
 .infobox {
-  background: #ef7dac;
+  background: #76c4cc;
 }
 .infobox .info-text {
   float: left;
@@ -809,7 +809,7 @@ footer .menu li a {
   padding: 0px;
 }
 footer .menu li a:hover {
-  color: #ef7dac;
+  color: #76c4cc;
 }
 .subscribe-box {
   margin-top: 18px;
@@ -831,7 +831,7 @@ footer .menu li a:hover {
   text-decoration: none;
   color: #fff;
   font-size: 12px;
-  background: #ef7dac;
+  background: #76c4cc;
   text-transform: uppercase;
   border: none;
   padding: 7px 16px;
@@ -854,7 +854,7 @@ footer .menu li a:hover {
   line-height: 44px;
   margin-right: 5px;
   border-radius: 50px;
-  background: #ef7dac;
+  background: #76c4cc;
   display: inline-block;
   height: 42px;
   position: relative;
@@ -873,7 +873,7 @@ footer .menu li a:hover {
   color: #fff;
 }
 #copyright p a:hover {
-  color: #ef7dac;
+  color: #76c4cc;
 }
 .social-icon .facebook:hover {
   background-color: #3b5998;
@@ -914,7 +914,7 @@ footer {
 .widget-title:before {
   content: "";
   position: absolute;
-  border-bottom: 3px solid #ef7dac;
+  border-bottom: 3px solid #76c4cc;
   width: 50px;
   bottom: -1px;
   left: 0px;
@@ -923,7 +923,7 @@ footer {
   display: inline-block;
   margin-right: 15px;
   font-size: 16px;
-  color: #ef7dac;
+  color: #76c4cc;
 }
 .widget-title h4 {
   font-size: 16px;
@@ -947,7 +947,7 @@ footer {
   border-bottom: 1px solid #eee;
 }
 .categories-list ul li a:hover {
-  color: #ef7dac;
+  color: #76c4cc;
 }
 .categories-list ul li a i {
   margin-right: 5px;
@@ -982,7 +982,7 @@ footer {
   color: #999;
 }
 .all-categories ul li a:hover {
-  color: #ef7dac;
+  color: #76c4cc;
 }
 /* ==========================================================================
    Pagination
@@ -1005,15 +1005,15 @@ footer {
 .pagination > .active > span,
 .pagination > .active > span:focus,
 .pagination > .active > span:hover {
-  background-color: #ef7dac !important;
-  border-color: #ef7dac !important;
+  background-color: #76c4cc !important;
+  border-color: #76c4cc !important;
 }
 .pagination > li > a:focus,
 .pagination > li > a:hover,
 .pagination > li > span:focus,
 .pagination > li > span:hover {
-  background: #ef7dac;
-  border-color: #ef7dac;
+  background: #76c4cc;
+  border-color: #76c4cc;
   color: #fff;
 }
 .pagination > .active > a,
@@ -1060,7 +1060,7 @@ footer {
 .service-item .icon-wrapper i {
   display: block;
   margin: 0 auto;
-  color: #ef7dac;
+  color: #76c4cc;
 }
 .service-item h2 {
   font-size: 16px;
@@ -1121,7 +1121,7 @@ footer {
   color: #999;
 }
 .job-detail .text-left .meta span i {
-  color: #ef7dac;
+  color: #76c4cc;
   margin-right: 3px;
 }
 .job-detail .text-left .price {
@@ -1133,7 +1133,7 @@ footer {
 .job-detail .text-left .price i {
   font-size: 15px;
   margin-right: 10px;
-  color: #ef7dac;
+  color: #76c4cc;
 }
 .job-detail .text-left .btn {
   margin-right: 20px;
@@ -1163,7 +1163,7 @@ footer {
   left: 0;
   top: 4px;
   margin-right: 5px;
-  color: #ef7dac;
+  color: #76c4cc;
 }
 .job-detail .sidebar .thumb {
   width: 100%;
@@ -1176,7 +1176,7 @@ footer {
   margin: 0 0 12px 0;
 }
 .job-detail .sidebar .text-box h4 a {
-  color: #ef7dac;
+  color: #76c4cc;
 }
 .job-detail .sidebar .text-box p {
   color: #888;
@@ -1189,7 +1189,7 @@ footer {
 }
 .job-detail .sidebar .text-box a.text i {
   margin-right: 5px;
-  color: #ef7dac;
+  color: #76c4cc;
 }
 .job-detail .sidebar .text-box strong.price {
   color: #666;
@@ -1199,7 +1199,7 @@ footer {
 }
 .job-detail .sidebar .text-box strong.price i {
   margin-right: 5px;
-  color: #ef7dac;
+  color: #76c4cc;
 }
 .job-detail .sidebar .sidebar-jobs ul li {
   display: block;
@@ -1220,7 +1220,7 @@ footer {
 }
 .job-detail .sidebar .sidebar-jobs ul li span i {
   margin-right: 5px;
-  color: #ef7dac;
+  color: #76c4cc;
 }
 /* ==========================================================================
    Browse Jobs Page Style
@@ -1295,7 +1295,7 @@ footer {
   color: #999;
 }
 .job-list .job-tag .meta-tag span a:hover {
-  color: #ef7dac;
+  color: #76c4cc;
 }
 .job-list .job-tag .meta-tag span i {
   margin-right: 5px;
@@ -1310,7 +1310,7 @@ footer {
   text-align: center;
   margin-right: 18px;
   background: #f1f1f1;
-  color: #ef7dac;
+  color: #76c4cc;
   font-size: 16px;
 }
 /* ==========================================================================
@@ -1334,16 +1334,16 @@ footer {
   color: #888;
 }
 .right-sideabr .lest li a:hover {
-  color: #ef7dac;
+  color: #76c4cc;
 }
 .right-sideabr .lest li a.active {
-  color: #ef7dac;
+  color: #76c4cc;
 }
 .right-sideabr .lest .notinumber {
   float: right;
   width: 24px;
   height: 24px;
-  background: #ef7dac;
+  background: #76c4cc;
   text-align: center;
   border-radius: 50px;
   color: #fff;
@@ -1461,7 +1461,7 @@ footer {
   margin-bottom: 20px;
 }
 .post-header a {
-  color: #ef7dac;
+  color: #76c4cc;
 }
 .add-post-btn {
   width: 100%;
@@ -1569,7 +1569,7 @@ footer {
   color: #818a91;
 }
 .manager-resumes-item .btn-gray:hover {
-  color: #ef7dac;
+  color: #76c4cc;
 }
 .manager-resumes-item .btn-danger {
   background-color: #ef4d42 !important;
@@ -1742,7 +1742,7 @@ fieldset p {
 }
 #pricing-table .table .pricing-header .price-value {
   font-size: 52px;
-  color: #ef7dac;
+  color: #76c4cc;
   position: relative;
   text-align: center;
   font-weight: 700;
@@ -1776,7 +1776,7 @@ fieldset p {
   -moz-box-shadow: 0 13px 21px rgba(0, 0, 0, 0.13);
 }
 #pricing-table .table:hover .pricing-header {
-  background: #ef7dac;
+  background: #76c4cc;
 }
 #pricing-table .table:hover .pricing-header .price-value {
   color: #ffffff;
@@ -1790,7 +1790,7 @@ fieldset p {
   -moz-box-shadow: 0 13px 21px rgba(0, 0, 0, 0.13);
 }
 #pricing-table #active-tb .pricing-header {
-  background: #ef7dac;
+  background: #76c4cc;
 }
 #pricing-table #active-tb .pricing-header .price-value {
   color: #ffffff;
@@ -1836,7 +1836,7 @@ fieldset p {
 .user-panel-sidebar ul li a:hover,
 .user-panel-sidebar ul li a:active,
 .user-panel-sidebar ul li.active a {
-  background-color: #ef7dac;
+  background-color: #76c4cc;
   color: #fff;
 }
 .user-panel-sidebar ul li a:hover .badge,
@@ -1883,7 +1883,7 @@ table.add-manage-table > tbody > tr > th {
 }
 .table > thead > tr > th {
   border-bottom: none;
-  color: #ef7dac;
+  color: #76c4cc;
 }
 .ads-details-td h4 {
   font-size: 15px;
@@ -1961,7 +1961,7 @@ table.add-manage-table > tbody > tr > th {
   font-size: 14px;
   text-align: center;
   border-radius: 50px;
-  background-color: #ef7dac;
+  background-color: #76c4cc;
   -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;

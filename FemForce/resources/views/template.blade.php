@@ -45,6 +45,22 @@
         <link rel="stylesheet" type="text/css" href="{{asset('theme/jobboard-free-lite/assets/css/colors/red.css')}}" media="screen" />
         <link rel="stylesheet" type="text/css" href="{{asset('css/react-draft-wysiwyg.css')}}" media="screen" />
 
+        <!-- Main JS  -->
+        <script type="text/javascript" src="{{asset('theme/jobboard-free-lite/assets/js/jquery-min.js')}}"></script>
+        <script type="text/javascript" src="{{asset('theme/jobboard-free-lite/assets/js/bootstrap.min.js')}}"></script>
+        <script type="text/javascript" src="{{asset('theme/jobboard-free-lite/assets/js/material.min.js')}}"></script>
+        <script type="text/javascript" src="{{asset('theme/jobboard-free-lite/assets/js/material-kit.js')}}"></script>
+        <script type="text/javascript" src="{{asset('theme/jobboard-free-lite/assets/js/jquery.parallax.js')}}"></script>
+        <script type="text/javascript" src="{{asset('theme/jobboard-free-lite/assets/js/owl.carousel.min.js')}}"></script>
+        <script type="text/javascript" src="{{asset('theme/jobboard-free-lite/assets/js/jquery.slicknav.js')}}"></script>
+        <script type="text/javascript" src="{{asset('theme/jobboard-free-lite/assets/js/main.js')}}"></script>
+        <script type="text/javascript" src="{{asset('theme/jobboard-free-lite/assets/js/jquery.counterup.min.js')}}"></script>
+        <script type="text/javascript" src="{{asset('theme/jobboard-free-lite/assets/js/waypoints.min.js')}}"></script>
+        <script type="text/javascript" src="{{asset('theme/jobboard-free-lite/assets/js/jasny-bootstrap.min.js')}}"></script>
+        <script type="text/javascript" src="{{asset('theme/jobboard-free-lite/assets/js/bootstrap-select.min.js')}}"></script>
+        <script type="text/javascript" src="{{asset('theme/jobboard-free-lite/assets/js/form-validator.min.js')}}"></script>
+        <script type="text/javascript" src="{{asset('theme/jobboard-free-lite/assets/js/contact-form-script.js')}}"></script>
+
     </head>
 
     <body class="infobar-offcanvas">
@@ -62,7 +78,7 @@
         <!-- Header Section Start -->
         <div class="header">
             <!-- Start intro section -->
-            <section id="intro" class="section-intro">
+            <section id="intro">
                 <div class="logo-menu">
                     <nav class="navbar navbar-default main-navigation" role="navigation" data-spy="affix" data-offset-top="50">
                         <div class="container">
@@ -74,47 +90,47 @@
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                 </button>
-                                <a class="navbar-brand logo" href="index.html"><img src="assets/img/logo.png" alt=""></a>
+                                <a class="navbar-brand logo" href="/"><img width="100px" height="50px" src="{{asset("FemmForce.jpg")}}" alt=""></a>
                             </div>
 
                             <div class="collapse navbar-collapse" id="navbar">
                                 <!-- Start Navigation List -->
                                 <ul class="nav navbar-nav">
+                                    {{--<li>--}}
+                                        {{--<a href="home">Home</a>--}}
+                                    {{--</li>--}}
+                                    {{--<li>--}}
+                                        {{--<a href="candidates">Find A Job</a>--}}
+                                    {{--</li>--}}
+                                    {{--<li>--}}
+                                        {{--<a href="employers">Employers</a>--}}
+                                    {{--</li>--}}
                                     <li>
-                                        <a class="active" href="home">Home</a>
-                                    </li>
-                                    <li>
-                                        <a href="candidates">Find A Job</a>
-                                    </li>
-                                    <li>
-                                        <a href="employers">Employers</a>
-                                    </li>
-                                    <li>
-                                        <a href="blog">Blog</a>
+                                        <a class="active" href="blog">Blog</a>
                                     </li>
                                     <li>
                                         <a href="about-us">About Us</a>
                                     </li>
                                 </ul>
                                 <ul class="nav navbar-nav navbar-right float-right">
-                                    <li class="left"><a href="post-job.html"><i class="ti-pencil-alt"></i> Post A Job</a></li>
+                                    {{--<li class="left"><a href="post-job.html"><i class="ti-pencil-alt"></i> Post A Job</a></li>--}}
                                     <li class="right"><a href="my-account.html"><i class="ti-lock"></i>  Log In</a></li>
                                 </ul>
                             </div>
                         </div>
                         <!-- Mobile Menu Start -->
                         <ul class="wpb-mobile-menu">
+                            {{--<li>--}}
+                                {{--<a href="home">Home</a>--}}
+                            {{--</li>--}}
+                            {{--<li>--}}
+                                {{--<a href="candidates">Candidates</a>--}}
+                            {{--</li>--}}
+                            {{--<li>--}}
+                                {{--<a href="employers">Employers</a>--}}
+                            {{--</li>--}}
                             <li>
-                                <a class="active" href="home">Home</a>
-                            </li>
-                            <li>
-                                <a href="candidates">Candidates</a>
-                            </li>
-                            <li>
-                                <a href="employers">Employers</a>
-                            </li>
-                            <li>
-                                <a href="blog">Blog</a>
+                                <a class="active" href="blog">Blog</a>
                             </li>
                             <li>
                                 <a href="about-us">About Us</a>
@@ -161,7 +177,7 @@
                                         <p>Join our mailing list to stay up to date and get notices about our new releases!</p>
                                         <form class="subscribe-box">
                                             <input type="text" placeholder="Your email">
-                                            <input type="submit" class="btn-system" value="Send">
+                                            <input type="submit" class="btn-system" value="Subscribe">
                                         </form>
                                     </div>
                                 </div>
@@ -196,22 +212,6 @@
                 </a>
 
                 <!-- Main JS  -->
-                <script type="text/javascript" src="{{asset('theme/jobboard-free-lite/assets/js/jquery-min.js')}}"></script>
-                <script type="text/javascript" src="{{asset('theme/jobboard-free-lite/assets/js/bootstrap.min.js')}}"></script>
-                <script type="text/javascript" src="{{asset('theme/jobboard-free-lite/assets/js/material.min.js')}}"></script>
-                <script type="text/javascript" src="{{asset('theme/jobboard-free-lite/assets/js/material-kit.js')}}"></script>
-                <script type="text/javascript" src="{{asset('theme/jobboard-free-lite/assets/js/jquery.parallax.js')}}"></script>
-                <script type="text/javascript" src="{{asset('theme/jobboard-free-lite/assets/js/owl.carousel.min.js')}}"></script>
-                <script type="text/javascript" src="{{asset('theme/jobboard-free-lite/assets/js/jquery.slicknav.js')}}"></script>
-                <script type="text/javascript" src="{{asset('theme/jobboard-free-lite/assets/js/main.js')}}"></script>
-                <script type="text/javascript" src="{{asset('theme/jobboard-free-lite/assets/js/jquery.counterup.min.js')}}"></script>
-                <script type="text/javascript" src="{{asset('theme/jobboard-free-lite/assets/js/waypoints.min.js')}}"></script>
-                <script type="text/javascript" src="{{asset('theme/jobboard-free-lite/assets/js/jasny-bootstrap.min.js')}}"></script>
-                <script type="text/javascript" src="{{asset('theme/jobboard-free-lite/assets/js/bootstrap-select.min.js')}}"></script>
-                <script type="text/javascript" src="{{asset('theme/jobboard-free-lite/assets/js/form-validator.min.js')}}"></script>
-                <script type="text/javascript" src="{{asset('theme/jobboard-free-lite/assets/js/contact-form-script.js')}}"></script>
-                <script type="text/javascript" src="{{asset('theme/jobboard-free-lite/assets/js/jquery.themepunch.revolution.min.js')}}"></script>
-                <script type="text/javascript" src="{{asset('theme/jobboard-free-lite/assets/js/jquery.themepunch.tools.min.js')}}"></script>
             </section id="intro" class="section-intro">
         </div>
 

@@ -31,4 +31,6 @@ Route::get('/employee/blog', 'BlogController@edit')->middleware('auth');
 
 Route::post('/employee/create-blog', 'BlogController@create')->middleware('auth');
 
+Route::post('/blog/get', 'BlogController@get')->middleware('auth');
+
 Auth::routes();

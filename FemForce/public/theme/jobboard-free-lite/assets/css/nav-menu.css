@@ -29,11 +29,11 @@
   margin-top: 0;
 }
 .navbar-default.affix .float-right li a {
-  color: #ef7dac !important;
-  border: 1px solid #ef7dac;
+  color: #76c4cc !important;
+  border: 1px solid #76c4cc;
 }
 .navbar-default.affix .float-right li a:hover {
-  background: #ef7dac;
+  background: #76c4cc;
   color: #fff!important;
 }
 .navbar {
@@ -87,7 +87,7 @@
 .navbar-default .navbar-nav > li:hover > a,
 .navbar-default .navbar-nav > li > a.active {
   color: #fff;
-  background-color: #ef7dac;
+  background-color: #76c4cc;
 }
 .navbar-default .navbar-nav .dropdown {
   background: #ffffff;
@@ -126,11 +126,11 @@
 }
 .dropdown li a.active,
 .sup-dropdown li a.active {
-  color: #ef7dac;
+  color: #76c4cc;
 }
 .dropdown > li:hover > a,
 .sup-dropdown li:hover > a {
-  color: #ef7dac;
+  color: #76c4cc;
 }
 .dropdown li,
 .sup-dropdown li {
@@ -162,7 +162,7 @@
   left: 100%;
   top: 0;
   border-radius: 2px;
-  border-bottom: 2px solid #ef7dac;
+  border-bottom: 2px solid #76c4cc;
   padding: 12px;
   width: 195px;
   background-color: #fff;
@@ -209,8 +209,8 @@
   color: #444;
 }
 .main-navigation .float-right li a {
-  color: #ef7dac !important;
-  border: 1px solid #ef7dac;
+  color: #76c4cc !important;
+  border: 1px solid #76c4cc;
 }
 .main-navigation .float-right li a:hover {
   color: #fff!important;
@@ -282,7 +282,7 @@
   padding: 10px;
   cursor: pointer;
   position: fixed;
-  background: #ef7dac;
+  background: #76c4cc;
   z-index: 999;
   top: 124px;
   left: 0px;
@@ -314,7 +314,7 @@
 .navmenu-default .navmenu-nav > li > a:focus,
 .navbar-default .navbar-offcanvas .navmenu-nav > li > a:focus {
   color: #fff;
-  background-color: #ef7dac;
+  background-color: #76c4cc;
 }
 .nav > li {
   position: relative;
@@ -328,7 +328,7 @@
   border-bottom: 1px solid #eee;
 }
 nav#menu span.fa.fa-bars:hover {
-  color: #ef7dac;
+  color: #76c4cc;
 }
 .navmenu-default .navmenu-nav > .active > a,
 .navbar-default .navbar-offcanvas .navmenu-nav > .active > a,
@@ -336,7 +336,7 @@ nav#menu span.fa.fa-bars:hover {
 .navbar-default .navbar-offcanvas .navmenu-nav > .active > a:hover,
 .navmenu-default .navmenu-nav > .active > a:focus,
 .navbar-default .navbar-offcanvas .navmenu-nav > .active > a:focus {
-  background: #ef7dac;
+  background: #76c4cc;
   color: #fff;
 }
 .close {
@@ -345,7 +345,7 @@ nav#menu span.fa.fa-bars:hover {
   opacity: 1;
 }
 .close i {
-  background: #ef7dac;
+  background: #76c4cc;
   color: #fff;
   padding: 8px;
   border-radius: 50px;

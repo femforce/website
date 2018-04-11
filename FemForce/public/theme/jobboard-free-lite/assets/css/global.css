@@ -48,7 +48,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #ef7dac;
+  color: #76c4cc;
 }
 img {
   max-width: 100%;
@@ -73,11 +73,11 @@ a:focus {
   text-align: center;
 }
 ::selection {
-  background: #ef7dac;
+  background: #76c4cc;
   color: #fff;
 }
 ::-moz-selection {
-  background: #ef7dac;
+  background: #76c4cc;
   color: #fff;
 }
 .btn {
@@ -101,7 +101,7 @@ a:focus {
   opacity: 0.8;
 }
 .btn-common {
-  background-color: #ef7dac;
+  background-color: #76c4cc;
   border: none;
   border-radius: 50px;
   text-transform: uppercase;
@@ -110,14 +110,14 @@ a:focus {
 }
 .btn-border {
   background: #fff;
-  color: #ef7dac;
+  color: #76c4cc;
   text-transform: uppercase;
   border-radius: 50px;
   overflow: hidden;
   position: relative;
 }
 .btn-border:hover {
-  color: #ef7dac;
+  color: #76c4cc;
   box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.12), 0 1px 6px 0 rgba(0, 0, 0, 0.12);
 }
 .btn-search {
@@ -161,7 +161,7 @@ a:focus {
   padding: 14px 22px;
   height: 55px;
   font-size: 22px;
-  background: #ef7dac;
+  background: #76c4cc;
   color: #fff;
   width: 65px;
   text-align: center;
@@ -190,7 +190,7 @@ a:focus {
   bottom: 0px;
   margin-left: 0;
   margin-right: 0;
-  border-bottom: 2px solid #ef7dac;
+  border-bottom: 2px solid #76c4cc;
 }
 #content {
   padding: 80px 0;
@@ -219,7 +219,7 @@ a:focus {
 }
 .breadcrumb {
   font-size: 14px;
-  color: #ef7dac;
+  color: #76c4cc;
   border-radius: 0px;
   background: transparent;
   padding: 5px 0px;
@@ -229,7 +229,7 @@ a:focus {
   color: #fff;
 }
 .breadcrumb a:hover {
-  color: #ef7dac;
+  color: #76c4cc;
 }
 /*  preloader   */
 #loading {
@@ -261,7 +261,7 @@ a:focus {
 #loading .object {
   width: 20px;
   height: 20px;
-  background-color: #ef7dac;
+  background-color: #76c4cc;
   position: absolute;
   left: 65px;
   top: 65px;

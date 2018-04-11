@@ -132,7 +132,7 @@
   font-size: 16px;
   height: 50px;
   line-height: 50px;
-  background: #ef7dac;
+  background: #76c4cc;
   color: #fff;
 }
 .my-account-form .cd-switcher a.selected {
@@ -291,7 +291,7 @@
 .dropdown-menu li a:hover,
 .dropdown-menu li a:focus,
 .dropdown-menu li a:active {
-  background-color: #ef7dac;
+  background-color: #76c4cc;
   color: #fff;
   border-radius: 0px;
 }

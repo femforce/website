@@ -63,7 +63,7 @@
   color: #999;
 }
 .blog-post .post-content .meta .meta-part a:hover {
-  color: #ef7dac;
+  color: #76c4cc;
 }
 .blog-post .post-content .meta .meta-part i {
   margin-right: 5px;
@@ -210,7 +210,7 @@
   font-size: 12px;
   color: #fff;
   padding: 7px 12px;
-  background: #ef7dac;
+  background: #76c4cc;
   margin: 4px 2px;
   border-radius: 50px;
   transition: all 0.4s ease-in-out;
@@ -227,7 +227,7 @@
 blockquote {
   border-left: none;
   padding: 30px;
-  background: #ef7dac;
+  background: #76c4cc;
 }
 blockquote .quote-text {
   font-size: 20px;
@@ -285,7 +285,7 @@ blockquote p a:hover {
   padding-left: 85px;
 }
 .reply-link {
-  color: #ef7dac;
+  color: #76c4cc;
   border-radius: 0px;
   font-size: 14px;
   -webkit-transition: all 0.4s ease;
@@ -346,8 +346,8 @@ blockquote p a:hover {
   padding: 0px 30px;
   outline: none;
   border-radius: 0px;
-  background: #ef7dac !important;
-  border: 1px solid #ef7dac;
+  background: #76c4cc !important;
+  border: 1px solid #76c4cc;
   width: 100%;
   box-shadow: none;
 }
