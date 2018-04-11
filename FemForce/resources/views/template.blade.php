@@ -143,7 +143,7 @@
                 </div>
                 <!-- Header Section End -->
 
-                <div class="page-content">
+                <div class="page-content section-intro">
                     @yield('page_content')
                 </div> <!-- #page-content -->
 
