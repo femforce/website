@@ -229,7 +229,7 @@
             <div class="row">
                 <div id="clients-scroller">
                     @foreach($companies as $company)
-                        <div class="items">
+                        <div class="items col-md-3">
                             <img src="{{$company->image->path}}" alt="{{$company->image->path}}">
                         </div>
                     @endforeach
