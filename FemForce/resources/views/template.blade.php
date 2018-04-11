@@ -143,9 +143,7 @@
                 </div>
                 <!-- Header Section End -->
 
-                <div class="page-content section-intro">
-                    @yield('page_content')
-                </div> <!-- #page-content -->
+                @yield('page_content')
 
                 <!-- Footer Section Start -->
                 <footer>
