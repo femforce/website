@@ -1,7 +1,8 @@
 <?php
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
-class AddInvoiceIdToFailedChargesTable extends Migration
+
+class AddFieldsToBlogsTable extends Migration
 {
     /**
      * Run the migrations.
