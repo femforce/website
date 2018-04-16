@@ -29,7 +29,11 @@ var BlogViewCard = React.createClass({
 
     getHeader: function() {
         return (
-            <h4>{this.state.blog.get('title')}</h4>
+            <div>
+                <hr style={{height: "4px", border: "none", color: "#333", backgroundColor: "#333", width: "25%", strokeWidth: "1px", marginLeft: "20px", marginRight: "20px"}}/>
+                <h4 style={{textTransform: "uppercase", fontWeight: "bold", marginLeft: "20px"}}>{this.state.blog.get('title')}</h4>
+                <hr style={{height: "4px", border: "none", color: "#333", backgroundColor: "#333", width: "25%", strokeWidth: "1px", marginLeft: "20px", marginRight: "20px"}}/>
+            </div>
         )
     },
 

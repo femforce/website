@@ -21,4 +21,12 @@ class Blog extends Model
         return $this->belongsTo('App\User', 'user_id');
     }
 
+    /**
+     * Get the image for the company.
+     */
+    public function image()
+    {
+        return $this->belongsTo('App\Image', 'image_id');
+    }
+
 }

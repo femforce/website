@@ -73,8 +73,8 @@ var Blog = React.createClass({
 
                                 <h2 className="product-title">Blog</h2>
                                 <ol className="breadcrumb">
-                                    <li><a href="#"><i className="ti-home"></i> Home</a></li>
-                                    <li className="current">Blogs</li>
+                                    {/*<li><a href="#"><i className="ti-home"></i> Home</a></li>*/}
+                                    <li className="current">Blog</li>
                                 </ol>
                             </div>
                         </div>
@@ -88,7 +88,7 @@ var Blog = React.createClass({
         var cards = [];
         this.state.blogs.forEach(function(blog, index) {
             cards.push(<BlogViewCard key={blog.get('id')} blog={blog}/>);
-            if ((index+1) % 3 == 0) {
+            if ((index+1) % 2 == 0) {
                 cards.push(<div key={'clearfix:' + index} className="clearfix visible-md-block visible-lg-block"></div>);
             }
         });

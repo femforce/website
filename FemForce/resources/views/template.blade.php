@@ -156,9 +156,9 @@
                                         <h3 class="block-title">Quick Links</h3>
                                         <ul class="menu">
                                             <li><a href="home">Home</a></li>
-                                            <li><a href="candidates">Candidates</a></li>
-                                            <li><a href="employers">Employers</a></li>
-                                            <li><a href="about-us">About Us</a></li>
+                                            {{--<li><a href="candidates">Candidates</a></li>--}}
+                                            {{--<li><a href="employers">Employers</a></li>--}}
+                                            {{--<li><a href="about-us">About Us</a></li>--}}
                                         </ul>
                                     </div>
                                 </div>

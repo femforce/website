@@ -92,6 +92,10 @@ a:focus {
   transition: all .3s linear;
   border: none;
 }
+
+.blog-title {
+  background: #d1f4f5;
+}
 .btn-common:hover,
 .btn-common:focus {
   color: #fff;
