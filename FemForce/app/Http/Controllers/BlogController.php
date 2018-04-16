@@ -12,7 +12,7 @@ class BlogController extends Controller
     }
 
     function get() {
-        $blogs = Blog::with('user')->get();
+        $blogs = Blog::with('user')->with('image')->get();
         return $blogs;
     }
 
