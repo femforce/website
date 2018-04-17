@@ -18,11 +18,9 @@ var BlogViewCard = React.createClass({
 
     render: function() {
         return (
-            <div onClick={() => this.onClickBlog(this.state.blog.get('title'))}>
-                <Card size="col-sm-12 col-md-6">
-                    {this.getHeader()}
-                    {this.getContents()}
-                </Card>
+            <div>
+                {this.getHeader()}
+                {this.getContents()}
             </div>
         )
     },
@@ -57,11 +55,6 @@ var BlogViewCard = React.createClass({
         var htmlToReactParser = new HtmlToReact.Parser(React);
         return htmlToReactParser.parse(htmlInput);
     },
-
-    onClickBlog:function(title) {
-        console.log("BVC");
-        this.props.onClickBlog(title);
-    }
 
 });
 module.exports = BlogViewCard;

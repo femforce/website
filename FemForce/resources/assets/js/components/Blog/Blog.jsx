@@ -1,6 +1,7 @@
 var React  = require('react');
 var LoadingIndicator = require('react-loading-indicator').default;
 var BlogViewCard = require('./BlogViewCard');
+var BlogShowCard = require('./BlogShowCard');
 
 // Flux
 var BlogStore      = require('../../stores/BlogStore');
@@ -12,12 +13,14 @@ var Blog = React.createClass({
         return {
             editorState: "",
             blogsLoading: true,
+            blog: null
         }
     },
 
     getInitialState: function () {
         return {
-            blogsLoading: true
+            blogsLoading: true,
+            blog: null
         }
     },
 
@@ -57,7 +60,11 @@ var Blog = React.createClass({
         else {
             return (
                 <div className="container" style={{background: "white"}}>
-                    {this.renderBlogs()}
+                    {this.state.blog ?
+                        this.renderBlog()
+                      :
+                        this.renderBlogs()
+                    }
                 </div>
             )
         }
@@ -86,13 +93,27 @@ var Blog = React.createClass({
 
     renderBlogs: function() {
         var cards = [];
+        var self = this;
         this.state.blogs.forEach(function(blog, index) {
-            cards.push(<BlogViewCard key={blog.get('id')} blog={blog}/>);
+            cards.push(<BlogViewCard key={blog.get('id')} blog={blog} onClickBlog={self.onClickBlog}/>);
             if ((index+1) % 2 == 0) {
                 cards.push(<div key={'clearfix:' + index} className="clearfix visible-md-block visible-lg-block"></div>);
             }
         });
         return cards;
+    },
+
+    renderBlog: function() {
+       return (
+           <BlogShowCard key={this.state.blog.get('id')} blog={this.state.blog}/>
+       )
+    },
+
+    onClickBlog: function(title) {
+        var blog = BlogStore.getByTitle(title);
+        this.setState({
+            blog: blog
+        });
     }
 
 });

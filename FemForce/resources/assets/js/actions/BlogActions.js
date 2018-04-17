@@ -7,7 +7,7 @@ var loadUrl   = secureURL + '/blog/get';
 var createUrl = secureURL + '/blog/';
 var updateUrl = secureURL + '/blog/{blog_id}?_method=PUT';
 var deleteUrl = secureURL + '/blog/{blog_id}?_method=DELETE';
-var getByIdUrl = secureURL + '/blog/{blog_id}/get';
+var getByTitleUrl = secureURL + '/blog/{title}/get';
 
 var BlogActions = {
     load: function() {

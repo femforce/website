@@ -45,6 +45,17 @@ var BlogStore = assign({}, EventEmitter.prototype, {
         return blogs;
     },
 
+    getByTitle: function(title) {
+        var matchingBlog = null;
+        blogs.forEach(function(blog) {
+            if (blog.get('title') == title) {
+                matchingBlog = blog;
+                return false;
+            }
+        });
+        return matchingBlog;
+    },
+
     getWithId: function(id) {
         var matchingBlog = null;
         blogs.forEach(function(blog) {

@@ -16,6 +16,12 @@ class BlogController extends Controller
         return $blogs;
     }
 
+
+    function show($title) {
+        $blog = Blog::where('title', '=', $title)->get();
+        return $blog;
+    }
+
     function edit() {
         return view('blogEditor');
     }
