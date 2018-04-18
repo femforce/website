@@ -18,7 +18,7 @@ var BlogViewCard = React.createClass({
 
     render: function() {
         return (
-            <div onClick={() => this.onClickBlog(this.state.blog.get('title'))}>
+            <div onClick={() => this.onClickBlog(this.state.blog.get('title'))} style={{cursor: "pointer"}}>
                 <Card size="col-sm-12 col-md-6">
                     {this.getHeader()}
                     {this.getContents()}
