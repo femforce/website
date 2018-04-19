@@ -3,6 +3,7 @@ import {Editor} from 'react-draft-wysiwyg';
 import draftToHtml from 'draftjs-to-html';
 import { EditorState, convertToRaw, ContentState } from 'draft-js';
 var LoadingIndicator = require('react-loading-indicator');
+var Uploader = require('../DropZone');
 
 var BlogEditor = React.createClass({
 
@@ -26,7 +27,6 @@ var BlogEditor = React.createClass({
     },
 
     render: function () {
-        console.log(this.state.status);
         return (
             <div>
                 {this.renderHeader()}
@@ -60,7 +60,7 @@ var BlogEditor = React.createClass({
 
     renderHeader: function () {
         return (
-            <div className="page-h`eader" style={{background: "grey"}}>
+            <div className="page-header" style={{background: "grey"}}>
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12">
@@ -79,11 +79,14 @@ var BlogEditor = React.createClass({
     },
 
     renderEditor: function () {
+        console.log(this.state.image);
         return (
             <div>
                 <div className="col-md-10 col-md-offset-1">
                     <input ref="blog_title" id="blog_title" className="form-control" type="text" placeholder="Blog Title"/>
                 </div>
+                <Uploader style={{display: "block", margin: "20px auto 20px auto", cursor: "pointer"}} onChange={this.onPathChange} width={this.props.width} height={this.props.height}/>
+                {this.state.image ? <img src={this.state.path} height={200} width={400}/> : null}
                 <Editor
                     editorState={this.state.editorState}
                     toolbarClassName="col-md-10 col-md-offset-1"
@@ -130,7 +133,13 @@ var BlogEditor = React.createClass({
                 status: 3
             });
         });
-    }
+    },
+
+    onPathChange: function(path) {
+        this.setState({
+            path: secureURL + '/img/' + path,
+        });
+    },
 });
 
 

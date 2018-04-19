@@ -39,6 +39,7 @@
         "react": "^15.4.2",
         "react-dom": "^15.4.2",
         "react-draft-wysiwyg": "^1.12.11",
+        "react-dropzone": "^4.2.9",
         "react-loading-indicator": "^1.0.2",
         "react-rte": "^0.16.1",
         "react-spinkit": "^3.0.0",

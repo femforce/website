@@ -43,8 +43,6 @@ var BlogViewCard = React.createClass({
     },
 
     getContents: function() {
-
-
         return (
             <div>
                 {this.getHtmlContent()}
