@@ -79,14 +79,18 @@ var BlogEditor = React.createClass({
     },
 
     renderEditor: function () {
-        console.log(this.state.image);
+        console.log(this.state.path);
+
         return (
             <div>
                 <div className="col-md-10 col-md-offset-1">
                     <input ref="blog_title" id="blog_title" className="form-control" type="text" placeholder="Blog Title"/>
                 </div>
-                <Uploader style={{display: "block", margin: "20px auto 20px auto", cursor: "pointer"}} onChange={this.onPathChange} width={this.props.width} height={this.props.height}/>
-                {this.state.image ? <img src={this.state.path} height={200} width={400}/> : null}
+                {this.state.path ?
+                    <img src={this.state.path} height={350} width={540} style={{display: "block", margin: "20px auto 20px auto"}}/>
+                    :
+                    <Uploader style={{display: "block", margin: "20px auto 20px auto", cursor: "pointer"}} onChange={this.onPathChange} width={this.props.width} height={this.props.height}/>
+                }
                 <Editor
                     editorState={this.state.editorState}
                     toolbarClassName="col-md-10 col-md-offset-1"
@@ -126,6 +130,7 @@ var BlogEditor = React.createClass({
         var data = {
             'blog': draftToHtml(convertToRaw(this.state.editorState.getCurrentContent())),
             'title': this.refs.blog_title.value,
+            'path' : this.state.imagePath,
             '_token': csrfToken
         };
         $.post("create-blog", data, function(data){
@@ -138,6 +143,7 @@ var BlogEditor = React.createClass({
     onPathChange: function(path) {
         this.setState({
             path: secureURL + '/img/' + path,
+            imagePath: path
         });
     },
 });

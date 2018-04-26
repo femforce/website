@@ -29,7 +29,7 @@ var BlogViewCard = React.createClass({
         return (
             <div className="row">
                 <div className="col-md-6">
-                    <img src={secureURL + "/" + this.state.blog.get('image').get('path')} height={350} width={540}/>
+                    <img src={secureURL + "/img/" + this.state.blog.get('image').get('path')} height={350} width={540}/>
                 </div>
                 <div className="col-md-6">
                     <div className="blog-title" style={{position: "absolute", left: "160px", top: "80px", width: "200px", height: "200px"}}>

@@ -31,7 +31,7 @@ var BlogViewCard = React.createClass({
         return (
             <div>
                 <div style={{position: "relative"}}>
-                    <img src={secureURL + "/" + this.state.blog.get('image').get('path')} height={350} width={540}/>
+                    <img src={secureURL + "/img/" + this.state.blog.get('image').get('path')} height={350} width={540}/>
                     <div className="blog-title" style={{position: "absolute", left: "160px", top: "250px", width: "200px", height: "200px"}}>
                         <hr style={{height: "4px", border: "none", color: "#333", backgroundColor: "#333", width: "25%", strokeWidth: "1px", marginLeft: "20px", marginRight: "20px"}}/>
                         <h4 style={{textTransform: "uppercase", fontWeight: "bold", marginLeft: "20px", marginRight: "20px"}}>{this.state.blog.get('title')}</h4>
