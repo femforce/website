@@ -6,7 +6,7 @@ use App\Category;
 use App\Company;
 use App\Job;
 
-class AboutUsController extends Controller
+class OurStoryController extends Controller
 {
     function view()
     {

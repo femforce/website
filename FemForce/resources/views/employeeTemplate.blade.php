@@ -93,7 +93,7 @@
                                         <a href="blog">Blog</a>
                                     </li>
                                     <li>
-                                        <a href="about-us">About Us</a>
+                                        <a href="our-story">Our Story</a>
                                     </li>
                                 </ul>
                                 <ul class="nav navbar-nav navbar-right float-right">
@@ -117,7 +117,7 @@
                                 <a href="blog">Blog</a>
                             </li>
                             <li>
-                                <a href="about-us">About Us</a>
+                                <a href="our-story">Our Story</a>
                             </li>
                             <li class="btn-m"><a href="post-job.html"><i class="ti-pencil-alt"></i> Post A Job</a></li>
                             <li class="btn-m"><a href="my-account.html"><i class="ti-lock"></i>  Log In</a></li>
@@ -143,8 +143,8 @@
                                         <ul class="menu">
                                             <li><a href="home">Home</a></li>
                                             <li><a href="candidates">Candidates</a></li>
-                                            <li><a href="employers">Employers</a></li>
-                                            <li><a href="about-us">About Us</a></li>
+                                            {{--<li><a href="employers">Employers</a></li>--}}
+                                            <li><a href="our-story">Our Story</a></li>
                                         </ul>
                                     </div>
                                 </div>

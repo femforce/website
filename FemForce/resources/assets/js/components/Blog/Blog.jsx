@@ -52,8 +52,8 @@ var Blog = React.createClass({
     renderContents: function() {
         if (this.state.blogsLoading){
             return (
-                <div>
-                    <LoadingIndicator/>
+                <div style={{margin: "auto auto 30px", height: "60px", width: "60px"}}>
+                    <LoadingIndicator segmentWidth={10} segmentHeight={60} />
                 </div>
             )
         }

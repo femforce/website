@@ -21,7 +21,7 @@ Route::get('/candidates', 'CandidateController@view')->middleware('auth');
 
 Route::get('/employers', 'EmployerController@view')->middleware('auth');
 
-Route::get('/about-us', 'AboutUsController@view')->middleware('auth');
+Route::get('/our-story', 'OurStoryController@view')->middleware('auth');
 
 Route::get('/companies', 'CompanyController@getCompanies')->middleware('auth');
 
