@@ -36,6 +36,7 @@ var BlogViewCard = React.createClass({
                         <hr style={{height: "4px", border: "none", color: "#333", backgroundColor: "#333", width: "25%", strokeWidth: "1px", marginLeft: "20px", marginRight: "20px"}}/>
                         <h4 style={{textTransform: "uppercase", fontWeight: "bold", marginLeft: "20px", marginRight: "20px"}}>{this.state.blog.get('title')}</h4>
                         <hr style={{height: "4px", border: "none", color: "#333", backgroundColor: "#333", width: "25%", strokeWidth: "1px", marginLeft: "20px", marginRight: "20px"}}/>
+                        <h4 style={{textTransform: "uppercase", fontWeight: "bold", marginLeft: "20px", marginRight: "20px"}}>Read More</h4>
                     </div>
                 </div>
             </div>
@@ -53,13 +54,12 @@ var BlogViewCard = React.createClass({
     },
 
     getHtmlContent: function() {
-        var htmlInput = '<div>' + this.state.blog.get('html_content') + '</div>';
+        var htmlInput = '<div>' + this.state.blog.get('html_content').split(" ").splice(0, 24).join(" ") + '</div>';
         var htmlToReactParser = new HtmlToReact.Parser(React);
         return htmlToReactParser.parse(htmlInput);
     },
 
     onClickBlog:function(title) {
-        console.log("BVC");
         this.props.onClickBlog(title);
     }
 
