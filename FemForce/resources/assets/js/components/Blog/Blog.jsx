@@ -73,20 +73,7 @@ var Blog = React.createClass({
     renderHeader: function() {
         return (
             <div className="page-header" style={{borderTopWidth: "0px", borderBottomWidth: "0px"}}>
-                <div className="container section-intro">
-                    <div className="row">
-                        <div className="col-md-12">
-                            <div className="breadcrumb-wrapper" style={{marginTop: "20px"}}>
-
-                                <h2 className="product-title">Blog</h2>
-                                <ol className="breadcrumb">
-                                    {/*<li><a href="#"><i className="ti-home"></i> Home</a></li>*/}
-                                    <li className="current">Blog</li>
-                                </ol>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <div className="container section-intro" style={{height: "400px"}}/>
             </div>
         )
     },
