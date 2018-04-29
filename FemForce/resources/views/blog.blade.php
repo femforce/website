@@ -11,7 +11,7 @@
         var csrfToken = <?php echo json_encode(csrf_token()); ?>;
         var secureURL = "{{url('')}}";
     </script>
-    <script type="text/javascript" src="{{asset('js/BlogApp.js')}}"></script>
+    <script type="text/javascript" src="{{secure_asset('js/BlogApp.js')}}"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118270276-1"></script>
     <script>

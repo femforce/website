@@ -23,7 +23,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-12">
-                    <img src="{{asset('pexels-photo-601170 (1).jpeg')}}" alt="">
+                    <img src="{{secure_asset('pexels-photo-601170 (1).jpeg')}}" alt="">
                 </div>
                 <div class="col-md-6 col-sm-12">
                     <div class="about-content">
