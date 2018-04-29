@@ -13,7 +13,7 @@ class BlogController extends Controller
     }
 
     function get() {
-        $blogs = Blog::with('user')->with('image')->get();
+        $blogs = Blog::with('user')->with('image')->orderBy('order', 'asc')->get();
         return $blogs;
     }
 
