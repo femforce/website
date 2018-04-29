@@ -54,7 +54,7 @@ var BlogViewCard = React.createClass({
     },
 
     getHtmlContent: function() {
-        var htmlInput = '<div>' + this.state.blog.get('html_content').split(" ").splice(0, 24).join(" ") + '</div>';
+        var htmlInput = '<div>' + this.state.blog.get('html_content').split(" ").splice(0, 24).join(" ") + '...</div>';
         var htmlToReactParser = new HtmlToReact.Parser(React);
         return htmlToReactParser.parse(htmlInput);
     },
