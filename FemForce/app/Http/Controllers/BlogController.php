@@ -27,7 +27,8 @@ class BlogController extends Controller
         return view('blogEditor');
     }
 
-    function create() {
+    function create()
+    {
         $user = Auth::user();
 
         $image = Image::where('path', '=', $_POST['path'])->first();
@@ -36,10 +37,16 @@ class BlogController extends Controller
         $blog = new Blog;
         $blog->title = $_POST['title'];
         $blog->html_content = $_POST['blog'];
-        if ($image){
+        if ($image) {
             $blog->image_id = $image->id;
         }
-        $blog->order = $lastBlog->order + 1;
+        if ($lastBlog) {
+            $blog->order = $lastBlog->order + 1;
+        }
+        else {
+            $blog->order = 1;
+        }
+
         $blog->user_id = $user->id;
         $blog->save();
 
