@@ -4,7 +4,6 @@ var Card = React.createClass({
     getDefaultProps: function() {
         return ({
             panelBodyStyle: {
-                marginTop: "100px"
             }
         });
     },

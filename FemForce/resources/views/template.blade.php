@@ -60,7 +60,7 @@
         <script type="text/javascript" src="{{asset('theme/jobboard-free-lite/assets/js/bootstrap-select.min.js')}}"></script>
         <script type="text/javascript" src="{{asset('theme/jobboard-free-lite/assets/js/form-validator.min.js')}}"></script>
         <script type="text/javascript" src="{{asset('theme/jobboard-free-lite/assets/js/contact-form-script.js')}}"></script>
-
+        <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/2c66c6c8d8772d84299fa41d8/40be99f924b374bb2361cc9f5.js");</script>
     </head>
 
     <body class="infobar-offcanvas">
@@ -172,7 +172,6 @@
                                             <a class="dribble" href="https://dribbble.com/GrayGrids"><i class="ti-dribbble"></i></a>
                                             <a class="linkedin" href="https://www.linkedin.com/GrayGrids"><i class="ti-linkedin"></i></a>
                                         </div>
-                                        <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/2c66c6c8d8772d84299fa41d8/40be99f924b374bb2361cc9f5.js");</script>
                                         <p>Join our mailing list to stay up to date and get notices about our new releases!</p>
                                         <form class="subscribe-box">
                                             <input type="text" placeholder="Your email">
