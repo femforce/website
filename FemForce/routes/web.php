@@ -37,4 +37,6 @@ Route::get('/blog/{title}', 'BlogController@show')->middleware('auth');
 
 Route::post('/image', 'ImageController@create')->middleware('auth');
 
+Route::post('/subscribe', 'HomeController@subscribe')->middleware('auth');
+
 Auth::routes();

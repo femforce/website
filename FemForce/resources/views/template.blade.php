@@ -173,10 +173,10 @@
                                             <a class="linkedin" href="https://www.linkedin.com/GrayGrids"><i class="ti-linkedin"></i></a>
                                         </div>
                                         <p>Join our mailing list to stay up to date and get notices about our new releases!</p>
-                                        <form class="subscribe-box">
-                                            <input type="text" placeholder="Your email">
-                                            <input type="submit" class="btn-system" value="Subscribe">
-                                        </form>
+                                        <div class="subscribe-box">
+                                            <input type="text" placeholder="Your email" id="email-input">
+                                            <input type="submit" class="btn-system" value="Subscribe" id="email-submit">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -202,6 +202,20 @@
                 <!-- Footer Section End -->
                 <!-- Load site level scripts -->
                 @yield('includes')
+                <script>
+                        $(document).ready(function() {
+                            $('#email-submit').click(function() {
+                                var data = {
+                                    _token: csrfToken,
+                                    email: $('#email-input').val()
+                                };
+                                var url = "{{secure_url('/subscribe')}}";
+                                $.post(url, data, function(result) {
+                                    console.log(result);
+                                });
+                            });
+                    })
+                </script>
                 <!-- End loading site level scripts -->
 
                 <!-- Go To Top Link -->
