@@ -60,7 +60,7 @@
         <script type="text/javascript" src="{{secure_asset('theme/jobboard-free-lite/assets/js/bootstrap-select.min.js')}}"></script>
         <script type="text/javascript" src="{{secure_asset('theme/jobboard-free-lite/assets/js/form-validator.min.js')}}"></script>
         <script type="text/javascript" src="{{secure_asset('theme/jobboard-free-lite/assets/js/contact-form-script.js')}}"></script>
-        <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/2c66c6c8d8772d84299fa41d8/40be99f924b374bb2361cc9f5.js");</script>
+        <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/2c66c6c8d8772d84299fa41d8/83f4228243fac48ff534bb457.js");</script>
     </head>
 
     <body class="infobar-offcanvas">
