@@ -783,6 +783,13 @@ nav#menu span.fa.fa-bars:hover {
   position: relative;
   width: 100%;
 }
+.section-our-story {
+  background: url("../img/rawpixel-com-267082.jpg") center center no-repeat;
+  background-size: cover;
+  color: #fff;
+  position: relative;
+  width: 100%;
+}
 .search-container {
   padding: 200px 0;
   display: inline-block;

@@ -73,7 +73,7 @@ var Blog = React.createClass({
     renderHeader: function() {
         return (
             <div className="page-header" style={{borderTopWidth: "0px", borderBottomWidth: "0px"}}>
-                <div className="container section-intro" style={{height: "400px"}}/>
+                <div className="container section-intro" style={{height: "650px"}}/>
             </div>
         )
     },
