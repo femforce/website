@@ -41,9 +41,4 @@ elixir(function(mix) {
         cache: {},
         packageCache: {}
     });
-    mix.browserify('components/Blog/BlogEditorApp.jsx', null, null, {
-        paths: ['./node_modules', '.resources/assets/js'],
-        cache: {},
-        packageCache: {}
-    });
 });
