@@ -166,11 +166,11 @@
                                     <div class="widget">
                                         <h3 class="block-title">Follow Us</h3>
                                         <div class="bottom-social-icons social-icon">
-                                            <a class="twitter" href="https://twitter.com/GrayGrids"><i class="ti-twitter-alt"></i></a>
-                                            <a class="facebook" href="https://web.facebook.com/GrayGrids"><i class="ti-facebook"></i></a>
-                                            <a class="youtube" href="https://youtube.com"><i class="ti-youtube"></i></a>
-                                            <a class="dribble" href="https://dribbble.com/GrayGrids"><i class="ti-dribbble"></i></a>
-                                            <a class="linkedin" href="https://www.linkedin.com/GrayGrids"><i class="ti-linkedin"></i></a>
+                                            <a class="twitter" href="https://twitter.com/femmforce"><i class="ti-twitter-alt"></i></a>
+                                            <a class="facebook" href="https://www.facebook.com/FemmForce-1949116838431664"><i class="ti-facebook"></i></a>
+                                            <a class="instagram" href="https://instagram.com/femmforce"><i class="ti-instagram"></i></a>
+                                            <a class="linkedin" href="https://www.linkedin.com/company/femmforce"><i class="ti-linkedin"></i></a>
+                                            <a class="youtube" href="https://www.youtube.com/channel/UC7N96uMFBYijDNqjdcTO85w?"><i class="ti-youtube"></i></a>
                                         </div>
                                         <p>Join our mailing list to stay up to date and get notices about our new releases!</p>
                                         <div class="subscribe-box">
